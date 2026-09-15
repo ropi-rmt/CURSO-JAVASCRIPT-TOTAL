@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="funciones.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Cuestionario</title>
+ 
+
+</head>
+<body onload="comenzarReloj()">
+
+    <div class="tp3">
+<!-- etiqueta para cuenta regresiva-->
+ <h1 id="cuentaRegresiva">00:30</h1>
+
+ <!-- inputs para las preguntas-->
+
+  <div class="cuestionario">
+
+  <p class="pregunta">Pregunta 1</p>
+  <input type="text" id="preg1" placeholder="Tu respuesta aqui" class="respuesta">
+  <p class="pregunta">Pregunta 2</p>
+  <input type="text" id="preg2" class="respuesta">
+  <p class="pregunta">Pregunta 3</p>
+  <input type="text" id="preg3" class="respuesta">
+  <p class="pregunta">Pregunta 4</p>
+  <input type="text" id="preg4" class="respuesta">
+  <p class="pregunta">Pregunta 5</p>
+  <input type="text" id="preg5" class="respuesta">
+
+</div>
+
+<div class="botones">
+    <button onclick="gameReady()" class="boton">Enviar</button>
+    <button onclick="location.reload()" class="boton">Reiniciar</button>
+</div>
+    </div>
+
+     <!-- acá me falto la parte de audio-->
+
+</body>
+</html>

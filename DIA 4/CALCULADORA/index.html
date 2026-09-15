@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="operaciones.js"></script>
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="calculadora">
+
+        <h2> Ropi Calculator</h2>
+    <div class="visorSuperior" id="visorSuperior">
+        <input type="number" class="inputVisor" id="numero1">
+        <input type="number" class="inputVisor" id="numero2">
+    </div>
+
+    <div class="operacionesSimples">
+        
+        <button class="boton" onclick="resultadoSuma()">+</button>
+        <button class="boton" onclick="resultadoResta()">-</button>
+        <button class="boton" onclick="resultadoMultiplicacion()">x</button>
+        <button class="boton" onclick="resultadoDivision()">/</button>
+        
+    </div>
+
+    <div class="operacionesAvanzadas">
+
+        <button class="boton" onclick="resultadoPotencia()">Potencia</button>
+        <button class="boton" onclick="resultadoRaiz()">Raiz</button>
+        <button class="boton" onclick="resultadoAbs()">Valor Abs</button>
+        <button class="boton" onclick="resultadoRandom()">Random</button>
+
+    </div>
+
+    <div class="visorInferior">
+
+        <input type="text" id="visorResultado" class="visorInferior">
+
+    </div>
+
+    <div class="redondeo">
+        <button class="boton" onclick="resultadoRound()">Round</button>
+        <button class="boton" onclick="resultadoFloor()">Floor</button>
+        <button class="boton" onclick="resultadoCeil()">Ceil</button>
+
+
+    </div>
+
+</div>
+</body>
+</html>
