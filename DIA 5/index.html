@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegi tu Peli</title>
+    <script src="funciones.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="elegiTuPeli">
+
+    <h2> Elegí tu Peli</h2>
+
+    <input type="number" id="inputEdad" class="inputEdad" placeholder="Que edad tenés?">
+
+    <div class="botones">
+    <button onclick="recomendarPelicula('comedia')" class="boton">Comedia</button>
+    <button onclick="recomendarPelicula('terror')" class="boton">Terror</button>
+    <button onclick="recomendarPelicula('drama')" class="boton">Drama</button>
+    <button onclick="recomendarPelicula('musical')" class="boton">Musical</button>
+</div>
+
+    <h3 id="recomendacion"></h3>
+
+</div>
+
+</body>
+</html>
